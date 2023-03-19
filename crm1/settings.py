@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@j5zjew-o@ww=&#5$4-gso0*-67&))^!2#0^3qt(od(5i^(%l0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['reftel3333.pythonanywhere.com']
 
 
 # Application definition
@@ -80,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pamine',
-        'USER': 'root',
-        'PASSWORD': '',
+        'USER': 'reftel3333',
+        'PASSWORD': 'p@m1ne100%',
         'HOST': 'localhost',
         'PORT': '3306'
     }
